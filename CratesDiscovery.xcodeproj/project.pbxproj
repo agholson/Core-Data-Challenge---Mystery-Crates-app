@@ -13,6 +13,8 @@
 		75CDE35F27948F6600353BF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75CDE35E27948F6600353BF0 /* Preview Assets.xcassets */; };
 		75CDE36127948F6600353BF0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CDE36027948F6600353BF0 /* Persistence.swift */; };
 		75CDE36427948F6600353BF0 /* CratesDiscovery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75CDE36227948F6600353BF0 /* CratesDiscovery.xcdatamodeld */; };
+		75CDE371279494F200353BF0 /* CrateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CDE370279494F200353BF0 /* CrateModel.swift */; };
+		75CDE3732794957A00353BF0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CDE3722794957A00353BF0 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,9 @@
 		75CDE35E27948F6600353BF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		75CDE36027948F6600353BF0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		75CDE36327948F6600353BF0 /* CratesDiscovery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CratesDiscovery.xcdatamodel; sourceTree = "<group>"; };
+		75CDE370279494F200353BF0 /* CrateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrateModel.swift; sourceTree = "<group>"; };
+		75CDE3722794957A00353BF0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		75CDE37427949C9F00353BF0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +44,7 @@
 		75CDE34B27948F6500353BF0 = {
 			isa = PBXGroup;
 			children = (
+				75CDE37427949C9F00353BF0 /* README.md */,
 				75CDE35627948F6500353BF0 /* CratesDiscovery */,
 				75CDE35527948F6500353BF0 /* Products */,
 			);
@@ -56,7 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				75CDE35727948F6500353BF0 /* CratesDiscoveryApp.swift */,
-				75CDE35927948F6500353BF0 /* ContentView.swift */,
+				75CDE36B2794920C00353BF0 /* ViewModel */,
+				75CDE36C2794921100353BF0 /* Models */,
+				75CDE36A279491FF00353BF0 /* Views */,
 				75CDE35B27948F6600353BF0 /* Assets.xcassets */,
 				75CDE36027948F6600353BF0 /* Persistence.swift */,
 				75CDE36227948F6600353BF0 /* CratesDiscovery.xcdatamodeld */,
@@ -71,6 +79,30 @@
 				75CDE35E27948F6600353BF0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75CDE36A279491FF00353BF0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				75CDE35927948F6500353BF0 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		75CDE36B2794920C00353BF0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				75CDE370279494F200353BF0 /* CrateModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		75CDE36C2794921100353BF0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				75CDE3722794957A00353BF0 /* User.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +176,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				75CDE36127948F6600353BF0 /* Persistence.swift in Sources */,
+				75CDE371279494F200353BF0 /* CrateModel.swift in Sources */,
+				75CDE3732794957A00353BF0 /* User.swift in Sources */,
 				75CDE35A27948F6500353BF0 /* ContentView.swift in Sources */,
 				75CDE36427948F6600353BF0 /* CratesDiscovery.xcdatamodeld in Sources */,
 				75CDE35827948F6500353BF0 /* CratesDiscoveryApp.swift in Sources */,
