@@ -8,26 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		75CDE35827948F6500353BF0 /* CratesDiscoveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CDE35727948F6500353BF0 /* CratesDiscoveryApp.swift */; };
-		75CDE35A27948F6500353BF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CDE35927948F6500353BF0 /* ContentView.swift */; };
+		75CDE35A27948F6500353BF0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CDE35927948F6500353BF0 /* HomeView.swift */; };
 		75CDE35C27948F6600353BF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75CDE35B27948F6600353BF0 /* Assets.xcassets */; };
 		75CDE35F27948F6600353BF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75CDE35E27948F6600353BF0 /* Preview Assets.xcassets */; };
 		75CDE36127948F6600353BF0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CDE36027948F6600353BF0 /* Persistence.swift */; };
 		75CDE36427948F6600353BF0 /* CratesDiscovery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75CDE36227948F6600353BF0 /* CratesDiscovery.xcdatamodeld */; };
-		75CDE371279494F200353BF0 /* CrateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CDE370279494F200353BF0 /* CrateModel.swift */; };
-		75CDE3732794957A00353BF0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CDE3722794957A00353BF0 /* User.swift */; };
+		75D8DB2B2795E492007BD1E9 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DB252795E492007BD1E9 /* User+CoreDataClass.swift */; };
+		75D8DB2D2795E492007BD1E9 /* Crate+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DB272795E492007BD1E9 /* Crate+CoreDataClass.swift */; };
+		75D8DB2F2795E492007BD1E9 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DB292795E492007BD1E9 /* Item+CoreDataClass.swift */; };
+		75D8DB322795F6D0007BD1E9 /* ListCratesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DB312795F6D0007BD1E9 /* ListCratesViewModel.swift */; };
+		75D8DB342795F74D007BD1E9 /* CrateStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DB332795F74D007BD1E9 /* CrateStorage.swift */; };
+		75D8DB372796200F007BD1E9 /* SignUpFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DB362796200F007BD1E9 /* SignUpFormView.swift */; };
+		75D8DB3B279623F2007BD1E9 /* SignUpFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DB3A279623F2007BD1E9 /* SignUpFormViewModel.swift */; };
+		75D8DB3D2796244E007BD1E9 /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DB3C2796244E007BD1E9 /* UserStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		75CDE35427948F6500353BF0 /* CratesDiscovery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CratesDiscovery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CDE35727948F6500353BF0 /* CratesDiscoveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CratesDiscoveryApp.swift; sourceTree = "<group>"; };
-		75CDE35927948F6500353BF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		75CDE35927948F6500353BF0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		75CDE35B27948F6600353BF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75CDE35E27948F6600353BF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		75CDE36027948F6600353BF0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		75CDE36327948F6600353BF0 /* CratesDiscovery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CratesDiscovery.xcdatamodel; sourceTree = "<group>"; };
-		75CDE370279494F200353BF0 /* CrateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrateModel.swift; sourceTree = "<group>"; };
-		75CDE3722794957A00353BF0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		75CDE37427949C9F00353BF0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		75D8DB252795E492007BD1E9 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		75D8DB272795E492007BD1E9 /* Crate+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Crate+CoreDataClass.swift"; sourceTree = "<group>"; };
+		75D8DB292795E492007BD1E9 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		75D8DB312795F6D0007BD1E9 /* ListCratesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCratesViewModel.swift; sourceTree = "<group>"; };
+		75D8DB332795F74D007BD1E9 /* CrateStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrateStorage.swift; sourceTree = "<group>"; };
+		75D8DB362796200F007BD1E9 /* SignUpFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFormView.swift; sourceTree = "<group>"; };
+		75D8DB3A279623F2007BD1E9 /* SignUpFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFormViewModel.swift; sourceTree = "<group>"; };
+		75D8DB3C2796244E007BD1E9 /* UserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				75CDE35727948F6500353BF0 /* CratesDiscoveryApp.swift */,
+				75D8DB352796047B007BD1E9 /* CoreDataControllers */,
 				75CDE36B2794920C00353BF0 /* ViewModel */,
 				75CDE36C2794921100353BF0 /* Models */,
 				75CDE36A279491FF00353BF0 /* Views */,
@@ -84,7 +97,8 @@
 		75CDE36A279491FF00353BF0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				75CDE35927948F6500353BF0 /* ContentView.swift */,
+				75CDE35927948F6500353BF0 /* HomeView.swift */,
+				75D8DB362796200F007BD1E9 /* SignUpFormView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -92,7 +106,8 @@
 		75CDE36B2794920C00353BF0 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				75CDE370279494F200353BF0 /* CrateModel.swift */,
+				75D8DB312795F6D0007BD1E9 /* ListCratesViewModel.swift */,
+				75D8DB3A279623F2007BD1E9 /* SignUpFormViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -100,9 +115,28 @@
 		75CDE36C2794921100353BF0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				75CDE3722794957A00353BF0 /* User.swift */,
+				75D8DB38279623CA007BD1E9 /* CoreDataModels */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		75D8DB352796047B007BD1E9 /* CoreDataControllers */ = {
+			isa = PBXGroup;
+			children = (
+				75D8DB332795F74D007BD1E9 /* CrateStorage.swift */,
+				75D8DB3C2796244E007BD1E9 /* UserStorage.swift */,
+			);
+			path = CoreDataControllers;
+			sourceTree = "<group>";
+		};
+		75D8DB38279623CA007BD1E9 /* CoreDataModels */ = {
+			isa = PBXGroup;
+			children = (
+				75D8DB252795E492007BD1E9 /* User+CoreDataClass.swift */,
+				75D8DB272795E492007BD1E9 /* Crate+CoreDataClass.swift */,
+				75D8DB292795E492007BD1E9 /* Item+CoreDataClass.swift */,
+			);
+			path = CoreDataModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,12 +209,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D8DB2F2795E492007BD1E9 /* Item+CoreDataClass.swift in Sources */,
 				75CDE36127948F6600353BF0 /* Persistence.swift in Sources */,
-				75CDE371279494F200353BF0 /* CrateModel.swift in Sources */,
-				75CDE3732794957A00353BF0 /* User.swift in Sources */,
-				75CDE35A27948F6500353BF0 /* ContentView.swift in Sources */,
+				75D8DB2B2795E492007BD1E9 /* User+CoreDataClass.swift in Sources */,
+				75CDE35A27948F6500353BF0 /* HomeView.swift in Sources */,
 				75CDE36427948F6600353BF0 /* CratesDiscovery.xcdatamodeld in Sources */,
 				75CDE35827948F6500353BF0 /* CratesDiscoveryApp.swift in Sources */,
+				75D8DB372796200F007BD1E9 /* SignUpFormView.swift in Sources */,
+				75D8DB322795F6D0007BD1E9 /* ListCratesViewModel.swift in Sources */,
+				75D8DB3D2796244E007BD1E9 /* UserStorage.swift in Sources */,
+				75D8DB2D2795E492007BD1E9 /* Crate+CoreDataClass.swift in Sources */,
+				75D8DB3B279623F2007BD1E9 /* SignUpFormViewModel.swift in Sources */,
+				75D8DB342795F74D007BD1E9 /* CrateStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
