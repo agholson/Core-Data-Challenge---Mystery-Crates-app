@@ -16,7 +16,7 @@
 		75D8DB2B2795E492007BD1E9 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DB252795E492007BD1E9 /* User+CoreDataClass.swift */; };
 		75D8DB2D2795E492007BD1E9 /* Crate+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DB272795E492007BD1E9 /* Crate+CoreDataClass.swift */; };
 		75D8DB2F2795E492007BD1E9 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DB292795E492007BD1E9 /* Item+CoreDataClass.swift */; };
-		75D8DB322795F6D0007BD1E9 /* ListCratesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DB312795F6D0007BD1E9 /* ListCratesViewModel.swift */; };
+		75D8DB322795F6D0007BD1E9 /* HomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DB312795F6D0007BD1E9 /* HomeViewViewModel.swift */; };
 		75D8DB342795F74D007BD1E9 /* CrateStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DB332795F74D007BD1E9 /* CrateStorage.swift */; };
 		75D8DB372796200F007BD1E9 /* SignUpFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DB362796200F007BD1E9 /* SignUpFormView.swift */; };
 		75D8DB3B279623F2007BD1E9 /* SignUpFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DB3A279623F2007BD1E9 /* SignUpFormViewModel.swift */; };
@@ -35,7 +35,7 @@
 		75D8DB252795E492007BD1E9 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		75D8DB272795E492007BD1E9 /* Crate+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Crate+CoreDataClass.swift"; sourceTree = "<group>"; };
 		75D8DB292795E492007BD1E9 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
-		75D8DB312795F6D0007BD1E9 /* ListCratesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCratesViewModel.swift; sourceTree = "<group>"; };
+		75D8DB312795F6D0007BD1E9 /* HomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewModel.swift; sourceTree = "<group>"; };
 		75D8DB332795F74D007BD1E9 /* CrateStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrateStorage.swift; sourceTree = "<group>"; };
 		75D8DB362796200F007BD1E9 /* SignUpFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFormView.swift; sourceTree = "<group>"; };
 		75D8DB3A279623F2007BD1E9 /* SignUpFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFormViewModel.swift; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 		75CDE36B2794920C00353BF0 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				75D8DB312795F6D0007BD1E9 /* ListCratesViewModel.swift */,
+				75D8DB312795F6D0007BD1E9 /* HomeViewViewModel.swift */,
 				75D8DB3A279623F2007BD1E9 /* SignUpFormViewModel.swift */,
 			);
 			path = ViewModel;
@@ -216,7 +216,7 @@
 				75CDE36427948F6600353BF0 /* CratesDiscovery.xcdatamodeld in Sources */,
 				75CDE35827948F6500353BF0 /* CratesDiscoveryApp.swift in Sources */,
 				75D8DB372796200F007BD1E9 /* SignUpFormView.swift in Sources */,
-				75D8DB322795F6D0007BD1E9 /* ListCratesViewModel.swift in Sources */,
+				75D8DB322795F6D0007BD1E9 /* HomeViewViewModel.swift in Sources */,
 				75D8DB3D2796244E007BD1E9 /* UserStorage.swift in Sources */,
 				75D8DB2D2795E492007BD1E9 /* Crate+CoreDataClass.swift in Sources */,
 				75D8DB3B279623F2007BD1E9 /* SignUpFormViewModel.swift in Sources */,

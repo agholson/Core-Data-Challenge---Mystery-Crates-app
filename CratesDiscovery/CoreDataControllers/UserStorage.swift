@@ -25,6 +25,9 @@ class UserStorage: NSObject, ObservableObject {
     // Singleton instance of CrateStorage handles all interactions with the Crate Entity
     static let shared: UserStorage = UserStorage()
     
+    // Get the shared viewContext
+    private let viewContext = PersistenceController.shared.container.viewContext
+    
     private override init() {
         
         // Initialize a fetchRequest for our Crate
@@ -55,9 +58,12 @@ class UserStorage: NSObject, ObservableObject {
             // Fetch the objects from Core Data
             try userFetchController.performFetch()
             
-            if let fetchedObjects = userFetchController.fetchedObjects {
+            let foundUser = userFetchController.fetchedObjects?.first
+            
+            // Ensure the user is not empty
+            if foundUser != nil {
                 // Update the crates property, this also updates the property relied on by the subscribed ViewModels
-                user.value = fetchedObjects.first!
+                user.value = foundUser!
             }
             
         }
@@ -70,9 +76,7 @@ class UserStorage: NSObject, ObservableObject {
      Adds a new user to the Core Data database
      */
     func add(name: String) {
-        
-        let viewContext = PersistenceController.shared.container.viewContext
-        
+        // Declare a new user with this view context
         let newUser = User(context: viewContext)
         
         // Set the id
@@ -83,6 +87,26 @@ class UserStorage: NSObject, ObservableObject {
         
         // Save this to the Core Data database
         try! viewContext.save()
+    }
+    
+    /*
+     Deletes a user based upon the supplied ID from the Core Data database.
+     */
+    func delete(userToDelete: User) {
+        do {
+            // Deletes the provided user from the database.
+            viewContext.delete(userToDelete)
+            
+            // Reset the current value of the Publisher
+            user = CurrentValueSubject<User, Never>(User())
+            
+            // Save the changes
+            try viewContext.save()
+           
+        } catch {
+            debugPrint(error)
+        }
+        
     }
     
 }

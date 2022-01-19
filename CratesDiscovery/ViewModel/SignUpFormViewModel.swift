@@ -8,7 +8,10 @@
 import Foundation
 import Combine
 
-class SignUpFormViewModel {
+/*
+ The View Model for the sign up form
+ */
+class SignUpFormViewModel: ObservableObject {
     // Adds the new user to the Core Data database
     func addUser(name: String) {
         UserStorage.shared.add(name: name)
